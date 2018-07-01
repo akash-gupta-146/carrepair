@@ -1,0 +1,51 @@
+:root{
+    --main-color:#41c6ef;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.background-car{
+    background-image:url(images/car-back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+}
+nav .navbar-brand img{
+    height:50px;
+}
+.color-white{
+    color:white;
+}
+
+.middle{
+    display:grid;
+    place-items:center;
+}
+
+.login-box{
+    animation: rightIn 0.5s ease-in;
+}
+
+.login-text{
+    animation: leftIn 0.5s ease-in ;
+}
+
+@keyframes rightIn{
+    0%{
+        transform:translatex(50vw);
+    }
+    100%{
+        transform:translatex(0px);
+    }
+}
+
+@keyframes leftIn{
+    0%{
+        transform:translatex(-50vw);
+    }
+    100%{
+        transform:translatex(0px);
+    }
+}
