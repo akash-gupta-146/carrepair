@@ -5,11 +5,17 @@
     margin:0px;
     padding:0px;
 }
+
 .background-car{
     background-image:url(images/car-back.jpg);
     background-position: center;
     background-size: cover;
 }
+
+.background-gray{
+    background:#f5f5f5;
+}
+
 header{
 }
 nav .navbar-brand img{
@@ -30,6 +36,37 @@ nav .navbar-brand img{
 
 .login-text{
     animation: leftIn 0.5s ease-in ;
+}
+.primary{
+    background:var(--main-color);
+}
+
+.custom-card,.custom-card-confirm{
+    background:white;
+    border-radius:25px;
+    padding:10px;
+    text-align:center;
+    cursor: pointer;
+    transition:0.2s;
+}
+.custom-card:hover{
+    box-shadow: 0 7px 10px rgba(0,0,0,0.1);
+}
+.custom-card:hover img{
+    transform:rotatey(180deg);
+}
+.custom-card img{ 
+    display:block;
+    margin:auto;
+    width:12vw;
+}
+.custom-card .title{
+    font-size:20px;
+    font-weight:bold;
+}
+.custom-card .description{
+    font-size:12px;
+    color:gray;
 }
 
 @keyframes rightIn{
