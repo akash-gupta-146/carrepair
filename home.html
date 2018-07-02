@@ -9,8 +9,7 @@
     </head>
     <body class="background-gray">
         <!-- Header -->
-        
-        <nav class="navbar navbar-expand-lg navbar-light primary">
+        <nav class="navbar navbar-expand-lg navbar-dark primary">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,19 +34,20 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         Profile
+                         <img src="images/profile.png" class="profile-img"/>Profile
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="left:initial;right:0;">
+                          <a class="dropdown-item" href="#">View Profile</a>
+                          <a class="dropdown-item" href="#">Profile Settings</a>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="#">Logout</a>
                         </div>
                       </li>
                 </ul>
             </div>
           </nav>
-
+        <!-- END OF HEADER -->
+        <!-- SERVICE CARDS -->
           <div class="cards">
             <div class="row mx-2">
               <div class="col-lg-4 col-sm-12 col-md-6 p-3">
@@ -94,7 +94,7 @@
                   </div>   
             </div>
           </div>
-
+        <!-- END OF SERVICE CARDS -->
 
           <!-- Modal for repair -->
 <div class="modal fade" id="repairModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -167,7 +167,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="confirmPage()">Submit</button>
+          <button type="button" class="btn btn-SUCCESS" onclick="confirmPage()">Submit</button>
         </div>
       </div>
     </div>

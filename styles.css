@@ -1,5 +1,5 @@
 :root{
-    --main-color:#41c6ef;
+    --main-color:#2196f3;
 }
 *{
     margin:0px;
@@ -16,10 +16,20 @@
     background:#f5f5f5;
 }
 
-header{
+nav{
+    color:white;
 }
 nav .navbar-brand img{
-    height:50px;
+    height:45px;
+}
+.profile-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: white;
+    padding: 5px;
+    margin-right: 10px;
 }
 .color-white{
     color:white;
